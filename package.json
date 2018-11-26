@@ -1,0 +1,24 @@
+{
+  "name": "web_pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --progress --info-verbosity verbose --config webpack.config.js",
+    "start:dev": "webpack-dev-server --hot --inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.2"
+  }
+}
